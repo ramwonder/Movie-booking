@@ -1,0 +1,10 @@
+com\moviebookingapp\controller\UserControllerTest.class
+com\moviebookingapp\Repository\TicketRepoTest.class
+com\moviebookingapp\serviceImpl\UserServiceImplTest.class
+com\moviebookingapp\Repository\MoviesRepoTest.class
+com\moviebookingapp\serviceImpl\MovieServiceImplTest.class
+com\moviebookingapp\controller\MovieControllerTest.class
+com\moviebookingapp\MoviebookingappApplicationTests.class
+com\moviebookingapp\controller\TicketControllerTest.class
+com\moviebookingapp\Repository\UserRepoTest.class
+com\moviebookingapp\serviceImpl\TicketServiceImplTest.class

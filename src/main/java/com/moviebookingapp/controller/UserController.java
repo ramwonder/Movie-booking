@@ -31,7 +31,10 @@ import com.moviebookingapp.models.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.http.HttpHeaders;
-@CrossOrigin(origins = "http://localhost:3000" , methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
+@CrossOrigin( origins = {
+        "http://localhost:3000",
+        "https://moviebookingapp23.z29.web.core.windows.net"
+    } , methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
 @Slf4j
 @RestController
 @RequestMapping("/api/v1.0/moviebooking")

@@ -24,7 +24,10 @@ import com.moviebookingapp.models.Tickets;
 
 import lombok.extern.slf4j.Slf4j;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+        "http://localhost:3000",
+        "https://moviebookingapp23.z29.web.core.windows.net"
+    })
 @Slf4j
 @RestController
 @RequestMapping("/api/v1.0/moviebooking")
